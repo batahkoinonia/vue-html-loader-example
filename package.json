@@ -1,0 +1,32 @@
+{
+  "name": "html-loader-example",
+  "version": "1.0.0",
+  "description": "Simple Vue.js application demonstrating the html-loader",
+  "main": "src/main.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "vue": "^2.5.16",
+    "vue-router": "^2.8.1"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.11",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "style-loader": "^0.21.0",
+    "vue-loader": "^15.2.2",
+    "vue-template-compiler": "^2.0.0",
+    "vue-template-loader": "^0.4.1",
+    "webpack": "^4.10.1",
+    "webpack-cli": "^2.1.4",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "scripts": {
+    "serve": "webpack-dev-server --mode development",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production"
+  }
+}
